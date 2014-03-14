@@ -1,0 +1,81 @@
+{
+  "id": "tag:search.twitter.com,2005:412009137849921536",
+  "objectType": "activity",
+  "actor": {
+    "objectType": "person",
+    "id": "id:twitter.com:266016644",
+    "link": "http://www.twitter.com/Odin666CF_DE",
+    "displayName": "Thomas Faltin",
+    "postedTime": "2011-03-14T14:14:13.000Z",
+    "image": "https://pbs.twimg.com/profile_images/3311260211/3942a769ccb9bcf7a2693d5908130793_normal.jpeg",
+    "summary": "interests: Business Technology, Cloud, Content Marketing, Digital Marketing, Search Engine Marketing,  Social Media, social Network, Big Data, NSA, and more",
+    "links": [{
+      "href": "http://wefollow.com/odin666cf_de",
+      "rel": "me"
+    }],
+    "friendsCount": 489,
+    "followersCount": 540,
+    "listedCount": 26,
+    "statusesCount": 123506,
+    "twitterTimeZone": "Berlin",
+    "verified": false,
+    "utcOffset": "3600",
+    "preferredUsername": "Odin666CF_DE",
+    "languages": ["de"],
+    "location": {
+      "objectType": "place",
+      "displayName": "Germany"
+    },
+    "favoritesCount": 1493
+  },
+  "verb": "post",
+  "postedTime": "2013-12-15T00:00:07.000Z",
+  "generator": {
+    "displayName": "Facebook",
+    "link": "http://www.facebook.com/twitter"
+  },
+  "provider": {
+    "objectType": "service",
+    "displayName": "Twitter",
+    "link": "http://www.twitter.com"
+  },
+  "link": "http://twitter.com/Odin666CF_DE/statuses/412009137849921536",
+  "body": "Not so mini anymore: new, already elongated MIN... http://t.co/XIkvOhUy06",
+  "object": {
+    "objectType": "note",
+    "id": "object:search.twitter.com,2005:412009137849921536",
+    "summary": "Not so mini anymore: new, already elongated MIN... http://t.co/XIkvOhUy06",
+    "link": "http://twitter.com/Odin666CF_DE/statuses/412009137849921536",
+    "postedTime": "2013-12-15T00:00:07.000Z"
+  },
+  "favoritesCount": 0,
+  "twitter_entities": {
+    "hashtags": [],
+    "symbols": [],
+    "urls": [{
+      "url": "http://t.co/XIkvOhUy06",
+      "expanded_url": "http://fb.me/14GYZsvg7",
+      "display_url": "fb.me/14GYZsvg7",
+      "indices": [51, 73]
+    }],
+    "user_mentions": []
+  },
+  "twitter_filter_level": "medium",
+  "twitter_lang": "en",
+  "retweetCount": 0,
+  "gnip": {
+    "matching_rules": [{
+      "value": "(contains:JavaScript OR contains:jQuery OR contains:Node.js OR contains:AngularJS OR contains:CSS3 OR contains:HTML5 OR contains:D3.js OR contains:SVG) has:links klout_score:30 followers_count:50 listed_count:3",
+      "tag": null
+    }],
+    "urls": [{
+      "url": "http://t.co/XIkvOhUy06",
+      "expanded_url": "http://www.scoop.it/t/new-on-scoop-it-today/p/4012706289/2013/12/15/not-so-mini-anymore-new-already-elongated-mini-cooper-to-get-longer-with-4-door-variant?hash=6f482727-21aa-4fa9-944d-6dc1ce8834bc",
+      "expanded_status": 200
+    }],
+    "klout_score": 41,
+    "language": {
+      "value": "en"
+    }
+  }
+}
