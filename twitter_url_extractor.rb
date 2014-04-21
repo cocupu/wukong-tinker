@@ -1,12 +1,12 @@
 # Returns a report on how many times each URL has been tweeted.
-# Yields tab-separated values containing:
-# | URL | Source Tweets | Retweets | Total Appearances |
+# Yields JSON containing key, count, retweets and total tweets.  Example:
+#   {"key":"http://nyti.ms/1eaCmuG","count":1,"retweets":95,"total_tweets":96}
 Wukong.processor(:mapper) do
   
   def process hsh
     url_entities = []
     begin
-      url_entities = hsh["twitter_entities"]["urls"]
+      url_entities = hsh["gnip"]["urls"]
     end
     url_entities.each do |url_entity|
       extracted = {"url" => url_entity["expanded_url"], "retweets"=>hsh["retweetCount"]}
@@ -35,6 +35,7 @@ Wukong.processor(:reducer, Wukong::Processor::Accumulator) do
   end
 
   def finalize
-    yield [key, count, retweets, count+retweets].join("\t")
+    to_return = {url:key, count:count, retweets:retweets, total_tweets:count+retweets}
+    yield JSON.generate(to_return)
   end
 end
